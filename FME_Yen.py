@@ -3,7 +3,7 @@
 
 # # Taux de change du Yen Japonnais
 
-# Nous allons effectuer une analyse descriptive du taux de change du Yen depuis 1999. D'abord il faut importer les données. Il faudrat aussi convertir les dates en type 'datetime'. Nous avons 2 colonnes dont Date et FME (Foreign money exchanges)
+# Nous allons effectuer une analyse descriptive du taux de change du Yen depuis 1999. D'abord il faut importer les données. Il faudra aussi convertir les dates en type 'datetime'. Nous avons 2 colonnes dont Date et FME (Foreign money exchanges)
 
 # In[9]:
 
@@ -357,4 +357,4 @@ fev.plot(x='Date',y='FME')
 print(forecast['yhat'])
 
 
-# Voici les données de prévision du mois de mars et au dessus les données reéls de février, on peut voir que dans les données de prévision varient beaucoup périodiquement, tandis que le cours du mois de février ne varie de manière irrégulière. Une modèle de résaux de neuronne peut aussi être appliqué, ou bien une variation sur la longueur des données à appliquer sur prophet peut aussi donner des prévisions qui peuvent être plus ressemblante a la réalité.
+# Voici les données de prévision du mois de mars et au dessus les données reéls de février, on peut voir que dans les données de prévision varient beaucoup périodiquement, tandis que le cours du mois de février varient de manière irrégulière. Une modèle de résaux de neuronne peut aussi être appliqué, ou bien une variation sur la longueur des données à appliquer sur prophet peut aussi donner des prévisions qui peuvent être plus ressemblantes à la réalité.
